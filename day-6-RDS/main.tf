@@ -1,12 +1,12 @@
 # DB Subnet Group
-resource "aws_db_subnet_group" "dev_db_subnet_group" {
+resource "aws_db_subnet_group" "dev_db_subnet_group-new" {
   name       = "dev-db-subnet-group"
   subnet_ids = [
     "subnet-0186151e9dcd47d9e",
     "subnet-0569fda89aa67581a"
   ]
   tags = {
-    Name = "dev-db-subnet-group"
+    Name = "dev-db-subnet-group-new"
   }
 }
 
